@@ -3,8 +3,7 @@ package no.fint.consumer.config;
 import no.fint.consumer.utils.RestEndpoints;
 import java.util.Map;
 import com.google.common.collect.ImmutableMap;
-
-import no.fint.model.arkiv.personal.*;
+import no.fint.model.arkiv.personal.Personalmappe;
 
 public class LinkMapper {
 
