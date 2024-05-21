@@ -182,7 +182,6 @@ public class PersonalmappeController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            linker.mapAndResetLinks(personalmappe);
             return linker.toResource(personalmappe);
         }    
     }
@@ -227,7 +226,6 @@ public class PersonalmappeController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            linker.mapAndResetLinks(personalmappe);
             return linker.toResource(personalmappe);
         }    
     }
