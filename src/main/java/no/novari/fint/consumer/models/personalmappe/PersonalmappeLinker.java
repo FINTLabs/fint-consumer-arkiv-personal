@@ -1,4 +1,4 @@
-package no.novari.fint.consumer.models.personal.personalmappe;
+package no.novari.fint.consumer.models.personalmappe;
 
 import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResource;
 import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResources;

@@ -1,4 +1,4 @@
-package no.novari.fint.consumer.models.personal.personalmappe;
+package no.novari.fint.consumer.models.personalmappe;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,8 +13,9 @@ import no.novari.fint.consumer.config.ConsumerProps;
 import no.novari.fint.consumer.event.ConsumerEventUtil;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
+import no.novari.fint.relations.FintResourceCompatibility;
 
-import no.novari.fint.relations.FintResourceCompatibility;import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.scheduling.annotation.Scheduled;
