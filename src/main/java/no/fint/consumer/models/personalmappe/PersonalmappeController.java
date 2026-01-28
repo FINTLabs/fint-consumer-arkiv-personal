@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.personal.PersonalmappeResource;
-import no.fint.model.resource.arkiv.personal.PersonalmappeResources;
-import no.fint.model.arkiv.personal.PersonalActions;
+import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResource;
+import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResources;
+import no.novari.fint.model.arkiv.personal.PersonalActions;
 
 @Slf4j
 @Api(tags = {"Personalmappe"})

@@ -3,7 +3,7 @@ package no.fint.consumer.models.personalmappe;
 import no.fint.consumer.exceptions.EventResponseException;
 import no.fint.consumer.utils.RestEndpoints;
 import no.fint.event.model.HeaderConstants;
-import no.fint.model.resource.arkiv.personal.PersonalmappeResource;
+import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResource;
 import no.fint.relations.FintRelationsMediaType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.arkiv.personal.Personalmappe;
-import no.fint.model.resource.arkiv.personal.PersonalmappeResource;
-import no.fint.model.arkiv.personal.PersonalActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.arkiv.personal.Personalmappe;
+import no.novari.fint.model.resource.arkiv.personal.PersonalmappeResource;
+import no.novari.fint.model.arkiv.personal.PersonalActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service
